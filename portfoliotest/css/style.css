@@ -1,0 +1,84 @@
+h1 {
+    color: #F97300;
+    font-size: 72px;
+    margin:  30px 50px 20px 50px;
+}
+ul{
+    list-style: none;
+}
+
+.header {
+    background-image: url('../images/image.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 591px;
+    margin-top: 35px;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+
+}
+
+.description {
+    position: relative;
+    margin-top: 55px;
+    margin-left: 0;
+    padding: 50px;
+}
+
+.description p {
+    color: rgb(94, 80, 80);
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #F97300;
+    background: #F97300;
+    color: #fff;
+}
+
+.mrg-prgrss{
+margin: 10px 0px 10px 0px;
+}
+
+/*Portfolio*/
+.portfolio {
+    margin: 30px 0;
+    position: relative;
+}
+
+.portfolio img {
+    height: 250px;
+    width: 100%;
+    margin: 15px;
+}
+
+.radio-gender {
+    margin: 10px 50px 10px 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact-form {
+    margin: 10px 50px 10px 50px;
+    position: relative;
+}
+
+
+.contact-form .right {
+    max-width: 600px;
+}
+
+.contact-form img{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
