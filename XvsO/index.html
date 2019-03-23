@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="./style.css" rel="stylesheet" media="all" />
+		<title>XvsO</title>
+	</head>
+	<body>
+		<ul>
+        <div class="score"><label>X:</label><label id="x" ></label></div>
+        <div class="score"><label>O:</label><label id="o" ></label></div>
+				<label id="typeGame" class="score"></label>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Single Game</a>
+            <div class="dropdown-content">
+                <input id="single" class="button" type="button" value="Single"/>
+                <input id="1vs1" class="button" type="button" value="1vs1"/>
+            </div>
+        </li>
+    </ul>
+		<div class="gameField">
+			<div id="0" class="block"></div>
+			<div id="1" class="block"></div>
+			<div id="2" class="block"></div>
+			<div id="3" class="block"></div>
+			<div id="4" class="block"></div>
+			<div id="5" class="block"></div>
+			<div id="6" class="block"></div>
+			<div id="7" class="block"></div>
+			<div id="8" class="block"></div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" async src="./app.js"></script>
+	</body>
+</html>
