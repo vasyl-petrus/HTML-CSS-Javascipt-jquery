@@ -1,0 +1,109 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #259844;
+    background: linear-gradient(45deg, #ee5252, #f0cf17,
+        #75d523, #238ad5);
+        background-size: 500% 500%;
+    animation: gradient 10s ease infinite alternate;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes textColorGradient {
+    0% {
+        color: #ee5252;
+    }
+
+    25% {
+        color: #f0cf17;
+    }
+
+    50% {
+        color: #75d523;
+    }
+
+    100% {
+        color: #238ad5;
+    }
+}
+
+.auth_box {
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #ff7b00;
+    border-radius: 15px;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: #2D2C33;
+}
+
+.auth_box h1 {
+    margin-bottom: auto;
+    animation: textColorGradient 10s ease infinite alternate;
+}
+
+.auth_box a {
+    cursor: alias;
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    animation: textColorGradient 10s ease infinite alternate;
+}
+
+.auth_box input[type="text"],
+.auth_box input[type="password"],
+.auth_box input[type="email"] {
+    color: white;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ff7b00;
+    outline: none;
+    padding: 15px 10px;
+    width: 200px;
+    border-radius: 30px;
+    transition: 0.25s;
+}
+
+.auth_box button {
+    background: none;
+    border-radius: 30px;
+    display: block;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #11ac03;
+    outline: none;
+    padding: 15px 10px;
+    width: 150px;
+    transition: 0.25s;
+}
+
+.auth_box input[type="text"]:focus,
+.auth_box input[type="password"]:focus,
+.auth_box input[type="email"]:focus {
+    width: 250px;
+    border-color: #11ac03;
+}
+
+.auth_box button:hover {
+    background: #11ac03;
+    cursor: pointer;
+    opacity: 0.9;
+}
