@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Dice</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+		<link type="text/css" href="./styles/style.css" rel="stylesheet" media="all" />
+		<link rel="stylesheet" href="./styles/bootstrap.css">
+		<style type="text/css">
+		.fnt{
+			font-family: Amatic SC, sans-serif;
+			font-size: 24px;
+		}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse"  style="position: relative;width: 100%;top:0px">
+			<div class="container-fluid">
+				<div class="navbar-header "><a class="navbar-brand dw fnt">Dice</a></div>
+				<button class="button button-center fnt">Go!</button>
+				<div class="right">
+					<input id="input" class="input" autocomplete="off" typeahead-min-length="0" type="number" min="1" max="65" value="1"/>
+				</div>
+			</div>
+		</nav>
+		<div id="cub" class="div-content"></div>
+		<footer class="footer "><p class="fnt">Hello footer</p></footer>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" async src="./js/script.js"></script>
+	</body>
+</html>
