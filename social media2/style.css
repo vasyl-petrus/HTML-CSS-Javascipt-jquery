@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    text-decoration: none;
+}
+
+.s_media {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.s_media a {
+    display: inline-flex;
+    border-radius: 50%;
+    margin: 10px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: #262626;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: .5s;
+}
+
+.s_media a i {
+    transition: .5s;
+}
+
+.s_media a:hover {
+    background: none;
+}
+
+.s_media a:hover i {
+    color: #ff7b00;
+    transform: scale(2.5) rotate(360deg);
+}
